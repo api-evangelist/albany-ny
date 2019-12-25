@@ -1,0 +1,36 @@
+{
+    "id": "f0b3e5a2b019127698af118086978002",
+    "name": "Open Data Portal - Field Interview Cards Dataset by Patrol Zone",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "782d0fa134f62144f0a8a837f8ecb408",
+            "name": "Get Field Interview Cards Dataset By Patrol Zone",
+            "url": "https:\/\/albanyny.gov\/resource\/\/eefy-r46r.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f0b3e5a2b019127698af118086978002",
+            "rawModeData": ""
+        }
+    ]
+}
