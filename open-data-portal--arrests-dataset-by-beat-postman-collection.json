@@ -1,0 +1,36 @@
+{
+    "id": "f4a73b5b7eff3b34b10bbd6b20b89843",
+    "name": "Open Data Portal - Arrests Dataset by Beat",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6d5d9b80fb594548689358d447269fa9",
+            "name": "Get Arrests Dataset By Beat",
+            "url": "https:\/\/albanyny.gov\/resource\/\/p5se-d5gj.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f4a73b5b7eff3b34b10bbd6b20b89843",
+            "rawModeData": ""
+        }
+    ]
+}
