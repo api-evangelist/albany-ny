@@ -1,0 +1,60 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Police Complaints Public",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/vtde-bcpq.json": {
+            "get": {
+                "summary": "Get Police Complaints Public",
+                "description": "",
+                "operationId": "GetPoliceComplaintsPublic",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "filenumber": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "type": {
+                        "description": "Complaint type",
+                        "type": "string"
+                    },
+                    "receiveddate": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "allegation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "count": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
