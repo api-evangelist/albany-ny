@@ -1,0 +1,104 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Calls for Service Dataset by Patrol Zone",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/j9qt-ekn8.json": {
+            "get": {
+                "summary": "Get Calls For Service Dataset By Patrol Zone",
+                "description": "",
+                "operationId": "GetCallsforServiceDatasetbyPatrolZone",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "zone": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "call_type": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "time_received": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "call_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_q5vu_u9by": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_wd8b_ugzw": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "zone_location_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "zone_location_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "zone_location_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_fthx_ahp9": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q94g_xr8d": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "zone_location_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "zone_location": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_30_days": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "officer_initiated": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "call": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
