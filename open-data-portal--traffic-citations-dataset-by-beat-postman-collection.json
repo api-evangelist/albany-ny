@@ -1,0 +1,36 @@
+{
+    "id": "58b80cfc22686b583f7d3704229b9ba4",
+    "name": "Open Data Portal - Traffic Citations Dataset by Beat",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "83d7170a19bdd7542a221ce160548022",
+            "name": "Get Traffic Citations Dataset By Beat",
+            "url": "https:\/\/albanyny.gov\/resource\/\/pme7-sigv.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "58b80cfc22686b583f7d3704229b9ba4",
+            "rawModeData": ""
+        }
+    ]
+}
