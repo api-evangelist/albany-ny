@@ -1,0 +1,136 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Arrests Dataset by Patrol Zone",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/5int-3ij4.json": {
+            "get": {
+                "summary": "Get Arrests Dataset By Patrol Zone",
+                "description": "",
+                "operationId": "GetArrestsDatasetbyPatrolZone",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "arrest_id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "incident": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "arrest_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "arrest_time": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "age": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "sex": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "race": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ethnic": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "law": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "crime_long_id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "code_description": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "attempt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "arrest_type": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhood": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "patrolzonexy": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "patrolzonexy_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "patrolzonexy_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "patrolzonexy_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "patrolzonexy_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_30_days": {
+                        "description": "Arrest in Last 30 Days",
+                        "type": "string"
+                    },
+                    ":@computed_region_q94g_xr8d": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_fthx_ahp9": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_wd8b_ugzw": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q5vu_u9by": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
