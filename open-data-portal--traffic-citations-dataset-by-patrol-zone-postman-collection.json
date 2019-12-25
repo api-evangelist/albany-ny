@@ -1,0 +1,36 @@
+{
+    "id": "090b2d7b4274226e911d6b8256dc7168",
+    "name": "Open Data Portal - Traffic Citations Dataset by Patrol Zone",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "0d816e52a57225880d5e19b20e98ea97",
+            "name": "Get Traffic Citations Dataset By Patrol Zone",
+            "url": "https:\/\/albanyny.gov\/resource\/\/dyys-fuqe.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "090b2d7b4274226e911d6b8256dc7168",
+            "rawModeData": ""
+        }
+    ]
+}
