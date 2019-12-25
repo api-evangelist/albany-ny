@@ -1,0 +1,144 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Reported Crimes Dataset by Beat",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/ite6-c533.json": {
+            "get": {
+                "summary": "Get Reported Crimes Dataset By Beat",
+                "description": "",
+                "operationId": "GetReportedCrimesDatasetbyBeat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "agency_case_no": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "report_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "time_of_crime": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "occur_begin_day": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occur_begin_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occur_begin_time": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occur_end_day": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occur_end_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occur_end_time": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "crime_class": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "incident_type": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "crime_attempt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "ucr": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "long_id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "class_description": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_30_days": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beat": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_q94g_xr8d": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_fthx_ahp9": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_wd8b_ugzw": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q5vu_u9by": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
