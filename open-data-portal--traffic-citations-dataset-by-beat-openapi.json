@@ -1,0 +1,128 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Traffic Citations Dataset by Beat",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/pme7-sigv.json": {
+            "get": {
+                "summary": "Get Traffic Citations Dataset By Beat",
+                "description": "",
+                "operationId": "GetTrafficCitationsDatasetbyBeat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "citation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "incident": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "time": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "age": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "sex": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "code": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "code_description": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "violation_category": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "day": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_30_days": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beat": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "beatxy_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_fthx_ahp9": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_wd8b_ugzw": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q94g_xr8d": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q5vu_u9by": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
