@@ -1,0 +1,56 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Use Of Force Incidents Public",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/j95g-ndp6.json": {
+            "get": {
+                "summary": "Get Use Of Force Incidents Public",
+                "description": "",
+                "operationId": "GetUseOfForceIncidentsPublic",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "filenumber": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "occurreddate": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "useofforcetype": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "count": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
