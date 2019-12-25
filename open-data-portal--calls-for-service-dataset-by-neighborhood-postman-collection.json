@@ -1,0 +1,36 @@
+{
+    "id": "69601d33dae1dde5c0ab863af743691d",
+    "name": "Open Data Portal - Calls for Service Dataset by Neighborhood",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "bf753beb8758429f2cc94d0658cc2001",
+            "name": "Get Calls For Service Dataset By Neighborhood",
+            "url": "https:\/\/albanyny.gov\/resource\/\/ahpn-8x2c.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "69601d33dae1dde5c0ab863af743691d",
+            "rawModeData": ""
+        }
+    ]
+}
