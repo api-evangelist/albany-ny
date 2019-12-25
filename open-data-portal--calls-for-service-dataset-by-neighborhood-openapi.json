@@ -1,0 +1,104 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Open Data Portal - Calls for Service Dataset by Neighborhood",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/albanyny.gov\/resource\/"
+    ],
+    "paths": {
+        "\/ahpn-8x2c.json": {
+            "get": {
+                "summary": "Get Calls For Service Dataset By Neighborhood",
+                "description": "",
+                "operationId": "GetCallsforServiceDatasetbyNeighborhood",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of results."
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Result": {
+                "type": "object",
+                "properties": {
+                    "call": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "call_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "time_received": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "call_type": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "officer_initiated": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "last_30_days": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhoodassociation": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhoodxy": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhoodxy_address": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhoodxy_city": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhoodxy_state": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "neighborhoodxy_zip": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    ":@computed_region_fthx_ahp9": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_wd8b_ugzw": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q94g_xr8d": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    ":@computed_region_q5vu_u9by": {
+                        "description": "",
+                        "type": "number"
+                    }
+                }
+            },
+            "Results": {
+                "type": "array"
+            }
+        }
+    }
+}
