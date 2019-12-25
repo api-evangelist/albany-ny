@@ -1,0 +1,36 @@
+{
+    "id": "88a68183bc3b78fceec698d26c68aeaf",
+    "name": "Open Data Portal - Traffic Citations Dataset by Neighborhood",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "dbb27a1df9e867166e4c5f38b73eadfd",
+            "name": "Get Traffic Citations Dataset By Neighborhood",
+            "url": "https:\/\/albanyny.gov\/resource\/\/6fbx-cy95.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "88a68183bc3b78fceec698d26c68aeaf",
+            "rawModeData": ""
+        }
+    ]
+}
