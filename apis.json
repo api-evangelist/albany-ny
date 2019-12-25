@@ -6,15 +6,17 @@
         "city government",
         "data provider",
         "have api",
+        "have openapi",
+        "new",
         "profile"
     ],
-    "created": "2019-12-20",
-    "modified": "2019-12-20",
+    "created": "2019-12-25",
+    "modified": "2019-12-25",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
         {
-            "name": "Albany, NY",
+            "name": "Open Data Portal - Calls for Service Dataset by Patrol Zone",
             "description": null,
             "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
             "humanURL": "https:\/\/data.albanyny.gov\/",
@@ -23,7 +25,281 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/albany-ny-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--calls-for-service-dataset-by-patrol-zone-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--calls-for-service-dataset-by-patrol-zone-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Arrests Dataset by Patrol Zone",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--arrests-dataset-by-patrol-zone-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--arrests-dataset-by-patrol-zone-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Reported Crimes Dataset by Patrol Zone",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--reported-crimes-dataset-by-patrol-zone-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--reported-crimes-dataset-by-patrol-zone-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Traffic Citations Dataset by Patrol Zone",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--traffic-citations-dataset-by-patrol-zone-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--traffic-citations-dataset-by-patrol-zone-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Reported Crimes Dataset by Neighborhood",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--reported-crimes-dataset-by-neighborhood-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--reported-crimes-dataset-by-neighborhood-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Field Interview Cards Dataset by Patrol Zone",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--field-interview-cards-dataset-by-patrol-zone-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--field-interview-cards-dataset-by-patrol-zone-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Use Of Force Incidents Public",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--use-of-force-incidents-public-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--use-of-force-incidents-public-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Calls for Service Dataset by Neighborhood",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--calls-for-service-dataset-by-neighborhood-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--calls-for-service-dataset-by-neighborhood-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Arrests Dataset by Beat",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--arrests-dataset-by-beat-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--arrests-dataset-by-beat-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Police Complaints Public",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--police-complaints-public-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--police-complaints-public-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Traffic Citations Dataset by Neighborhood",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--traffic-citations-dataset-by-neighborhood-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--traffic-citations-dataset-by-neighborhood-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Reported Crimes Dataset by Beat",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--reported-crimes-dataset-by-beat-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--reported-crimes-dataset-by-beat-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Field Interview Cards Dataset by Neighborhood",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--field-interview-cards-dataset-by-neighborhood-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--field-interview-cards-dataset-by-neighborhood-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Traffic Citations Dataset by Beat",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--traffic-citations-dataset-by-beat-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--traffic-citations-dataset-by-beat-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Calls for Service Dataset by Beat",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--calls-for-service-dataset-by-beat-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--calls-for-service-dataset-by-beat-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Open Data Portal - Field Interview Cards Dataset by Beat",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/openalbany-logo.png",
+            "humanURL": "https:\/\/data.albanyny.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--field-interview-cards-dataset-by-beat-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/albany-ny\/master\/open-data-portal--field-interview-cards-dataset-by-beat-postman-collection.json"
                 }
             ]
         }
