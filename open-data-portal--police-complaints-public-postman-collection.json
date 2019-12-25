@@ -1,0 +1,36 @@
+{
+    "id": "675db19608d7355672533a714604fd32",
+    "name": "Open Data Portal - Police Complaints Public",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "568b1f940171db2a70540f07c3d296bf",
+            "name": "Get Police Complaints Public",
+            "url": "https:\/\/albanyny.gov\/resource\/\/vtde-bcpq.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "675db19608d7355672533a714604fd32",
+            "rawModeData": ""
+        }
+    ]
+}
