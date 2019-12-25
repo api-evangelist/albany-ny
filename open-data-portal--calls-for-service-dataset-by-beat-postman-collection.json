@@ -1,0 +1,36 @@
+{
+    "id": "161883c92e0f79b273d2d08d2efb116e",
+    "name": "Open Data Portal - Calls for Service Dataset by Beat",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "faaae9faaad1cb2c4b24395f15c8ce74",
+            "name": "Get Calls For Service Dataset By Beat",
+            "url": "https:\/\/albanyny.gov\/resource\/\/5qjx-nnzw.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "161883c92e0f79b273d2d08d2efb116e",
+            "rawModeData": ""
+        }
+    ]
+}
